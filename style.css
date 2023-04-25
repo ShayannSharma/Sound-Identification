@@ -1,0 +1,37 @@
+body{
+ background-color: darkslategrey;
+ font-family: 'Inconsolata', monospace;
+}
+.header_div{
+    background-color: rgb(35, 180, 108);
+    color: black;
+}
+p{
+    color: crimson;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+button{
+    margin-top: 1cm;
+    width: 140px;
+    font-weight:700;
+    letter-spacing: 12px;
+}
+.copy_right_footer{
+    bottom: 0;
+    position: fixed;
+    color: whitesmoke;
+    text-align: center;
+    background-color: rgb(35, 180, 108) ;
+    width: 100%;
+    font-size: 25px;
+}
+#result_label{
+    color:rgb(35, 180, 108) ;
+    font-size: 26px;
+}
+#result_confidence{
+    color:rgb(35, 180, 108) ;
+    font-size: 26px;
+}
